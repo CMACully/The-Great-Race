@@ -1,0 +1,58 @@
+/* Programmer: Chauntel Atchley Cully
+     Create a page that simulates a race between two/more players by referencing objects on a page using browser object model, trapping events, managing/creating timers and intervals, and using JavaScript.
+     Date Created: 1/03/2022 
+     Date Updated: 1/11/2022 */
+
+body,
+html {
+    height: 100%;
+    background-image: url("images//background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jerry {
+    margin-top: 10%;
+}
+
+.redlightbtn {
+    margin: 0.1% 0 11% 0;
+}
+
+#raceboard {
+    background-image: url("images//lvl.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+
+#info {
+    padding-top: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    color: ivory;
+}
+
+footer {
+    margin-top: -25px;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 990px) {
+    .redlightbtn {
+        margin: 33.4% 0 8% 0;
+        max-width: 100px;
+    }
+
+    .tom {
+        max-width: 170px;
+        max-height: 200px;
+    }
+
+    .jerry {
+        /* margin-top: 10%; */
+        max-width: 75px;
+        max-height: 90px;
+    }
+}
